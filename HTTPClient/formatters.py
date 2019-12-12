@@ -31,3 +31,11 @@ def formatStatusCode(statusCode):
 
     else:
         return "Status unrecognized"
+
+def formatUrl(url):
+    url = str(url)
+    if url.startswith("http://") or url.startswith("https://"):
+        return url
+    
+    else:
+        return "http://" + url
