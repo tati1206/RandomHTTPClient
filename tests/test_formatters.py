@@ -1,4 +1,4 @@
-from clienteHTTP import formatters
+from HTTPClient import formatters
 from colorama import Fore
 
 def test_formatHeaders():
